@@ -17,7 +17,7 @@ public class W05E03 {
         System.out.print("Do you want to continue? (yes/no): ");
         String response = sc.next();
         while (! response.equals("yes") && ! (response.equals("no"))){
-            System.out.print("Do you want to continue? (yes/no): ");
+            System.out.print("Enter yes or no only: ");
             response = sc.next();
         }
     }
