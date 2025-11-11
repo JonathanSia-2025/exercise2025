@@ -18,7 +18,7 @@ public class W05E05 {
         int n = sc.nextInt();
         int countO = 0, countE = 0;
         for (int i=0; i<n; i++){
-            System.out.printf("Enter number %d", i);
+            System.out.printf("Enter number %d ", i);
             int number = sc.nextInt();
             if (number % 2 == 0){
                 countE += 1;
@@ -28,9 +28,11 @@ public class W05E05 {
                 
             }
         }
+        int sum_o_e = countE + countO;
         System.out.printf("Total even numbers: %d", countE);
         System.out.println();
         System.out.printf("Total odd numbers: %d", countO);
-
+        System.out.println();
+        System.out.printf("Total sum of odd and even number %d", sum_o_e);
     }
 }
